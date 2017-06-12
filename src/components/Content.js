@@ -34,7 +34,7 @@ class Content extends Component{
 									 alt={one.title}
 									 className="img-responsive img-thumbnail"
 								 />
-								 <button type="button" className="btn btn-info" data-toggle="collapse" data-target="#news1">Read</button>
+								 <button type="button" className="btn btn-success" data-toggle="collapse" data-target="#news1">Read</button>
 								  <div id="news1" className="collapse">
 								   {one.description}
 								  </div>

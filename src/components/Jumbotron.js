@@ -7,7 +7,7 @@ class Jumbotron extends Component{
 			<div className="jumbotron">
 				<div className="container">
 					<div className="row">
-							<h1>Welcome to React App</h1>
+							<h1>Welcome to Nature</h1>
 					</div>
 				</div>
 			</div>
