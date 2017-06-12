@@ -1,1 +1,3 @@
+npm install
+
 Example React -Bootstrap simple app -- in progress ....
