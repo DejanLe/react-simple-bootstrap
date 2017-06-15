@@ -5,11 +5,9 @@ class Content extends Component{
  
 	render(){
  
-		return(
-			<div>
+		return( 
 			 
-			<div className="container">
-				<div className="row">
+				 
 					<div className="col-md-3">
 					<div className="panel">
 						<div className="panel panel-header"> 
@@ -26,10 +24,8 @@ class Content extends Component{
 					    </div>
 					  	</div>
 					</div>
-				</div>	  
-			 </div>
-
-			</div>
+			 
+			 
 			);
 	}
 }
