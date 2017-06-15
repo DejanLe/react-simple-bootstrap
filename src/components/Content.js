@@ -10,18 +10,21 @@ class Content extends Component{
 			 
 			<div className="container">
 				<div className="row">
-					<div className="col-md-4">
-						<div className="panel panel-body">
-								<h1> {this.props.item.title}</h1>
+					<div className="col-md-3">
+					<div className="panel">
+						<div className="panel panel-header"> 
 								<img src={this.props.item.src}
 									 alt={this.props.item.title}
-									 className="img-responsive img-thumbnail"
+									 className="img-responsive"
 								 />
-								 <button type="button" className="btn btn-success" data-toggle="collapse" data-target="#news">Read</button>
-								  <div id="news" className="collapse">
+						</div>
+						<div className="panel panel-body">
+							    <h1> {this.props.item.title}</h1> 
+								 
 								   {this.props.item.description}
-								  </div>
+								 
 					    </div>
+					  	</div>
 					</div>
 				</div>	  
 			 </div>
